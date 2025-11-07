@@ -1,2 +1,4 @@
 /bin/
 !lib/javafx/bin/
+data/data/
+data/alquilervehiculosBD.properties
