@@ -48,10 +48,10 @@ public class ControladorCrearCategoria extends ControladorCasoDeUso {
         aceptar.setOnAction(event -> {
         	String error="";
         	if (nombre.getText().trim().length() == 0) {
-                error += "Introduce la direcciÛn\n";
+                error += "Introduce la direcci√≥n\n";
             }
         	if (nombre.getText().trim().length() > 20) {
-                error += "La longitud m·xima para el nombre es de 20 car·cteres\n";
+                error += "La longitud m√°xima para el nombre es de 20 car√°cteres\n";
             }
         	if (precioModIlimitada.getText().trim().length() == 0) {
                 error += "Introduce el precioModIlimitada\n";

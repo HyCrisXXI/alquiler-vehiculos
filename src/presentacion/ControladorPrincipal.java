@@ -35,7 +35,7 @@ public class ControladorPrincipal {
 	private static final String CREAR_SUCURSAL = "crear-sucursal.fxml";
 	private static final String LISTAR_CLIENTES = "listar-clientes.fxml";
 	private static final String LISTAR_ENTREGAS = "listar-entregas.fxml";
-	//TODO aÒadir constantes de tipo String para la vistas correspondientes a los casos de uso Crear Reserva y Listar Reservas de una Sucursal 
+	//TODO a√±adir constantes de tipo String para la vistas correspondientes a los casos de uso Crear Reserva y Listar Reservas de una Sucursal 
 	
 	private Stage primaryStage; 
 	@FXML 
@@ -90,7 +90,7 @@ public class ControladorPrincipal {
 	void AcercaDe(ActionEvent event){
 		Alert alerta = new Alert(AlertType.INFORMATION);
 		alerta.initStyle(StageStyle.DECORATED);
-		alerta.setContentText("Pr·ctica realizada por:\n\nJavier Cruz Selvi\nCarlos GarcÌa Del RÌo\nAlejandro Gil Contreras\nAntoni GimÈnez RodrÌguez");
+		alerta.setContentText("Pr√°ctica realizada por:\n\nJavier Cruz Selvi\nCarlos Garc√≠a Del R√≠o\nAlejandro Gil Contreras\nAntoni Gim√©nez Rodr√≠guez");
 		alerta.setHeaderText("Autores");
 		alerta.showAndWait();
 	}

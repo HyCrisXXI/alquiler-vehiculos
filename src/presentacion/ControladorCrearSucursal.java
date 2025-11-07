@@ -40,10 +40,10 @@ public class ControladorCrearSucursal extends ControladorCasoDeUso {
         aceptar.setOnAction(event -> {
         	String error="";
         	if (direccion.getText().trim().length() == 0) {
-                error += "Introduce la dirección\n";
+                error += "Introduce la direcciÃ³n\n";
             }
         	if (direccion.getText().trim().length() > 20) {
-                error += "La longitud máxima para la dirección es de 20 carácteres\n";
+                error += "La longitud mÃ¡xima para la direcciÃ³n es de 20 carÃ¡cteres\n";
             }
         	if(error.length()!=0){
         		Alert alerta = new Alert(AlertType.ERROR);

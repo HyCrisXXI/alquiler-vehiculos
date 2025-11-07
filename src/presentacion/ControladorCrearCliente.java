@@ -73,58 +73,58 @@ public class ControladorCrearCliente extends ControladorCasoDeUso {
                 error += "Introduce el nombre y los apellidos\n";
             }
         	if (nombreApellidos.getText().trim().length() > 20) {
-                error += "La longitud m·xima para el nombre es de 20 car·cteres\n";
+                error += "La longitud m√°xima para el nombre es de 20 car√°cteres\n";
             }
         	if (direccion.getText().trim().length() == 0) {
-                error += "Introduce la direcciÛn\n";
+                error += "Introduce la direcci√≥n\n";
             }
         	if (direccion.getText().trim().length() > 20) {
-                error += "La longitud m·xima para la direcciÛn es de 20 car·cteres\n";
+                error += "La longitud m√°xima para la direcci√≥n es de 20 car√°cteres\n";
             }
         	if (codigoPostal.getText().trim().length() == 0) {
-                error += "Introduce el cÛdigo postal\n";
+                error += "Introduce el c√≥digo postal\n";
             }
         	if (codigoPostal.getText().trim().length()>0  && codigoPostal.getText().trim().length() != 5) {
-                error += "La longitud del cÛdigo postal ha de ser de 5 dÌgitos\n";
+                error += "La longitud del c√≥digo postal ha de ser de 5 d√≠gitos\n";
             }
         	if (poblacion.getText().trim().length() == 0) {
-                error += "Introduce la poblaciÛn\n";
+                error += "Introduce la poblaci√≥n\n";
             }
         	if (poblacion.getText().trim().length() > 20) {
-                error += "La longitud m·xima para la poblaciÛn es de 20 car·cteres\n";
+                error += "La longitud m√°xima para la poblaci√≥n es de 20 car√°cteres\n";
             }
             if (fechaCarnet.getValue() == null) {
             	error += "Introduce la fecha del carnet\n";
             }
         	if (digitosTC.getText().trim().length() == 0) {
-                error += "Introduce los dÌgitos de la tarjeta de crÈdito\n";
+                error += "Introduce los d√≠gitos de la tarjeta de cr√©dito\n";
             }
         	if (digitosTC.getText().trim().length()>0 && digitosTC.getText().trim().length() != 16) {
-                error += "Introduce los 16 dÌgitos de la tarjeta de crÈdito sin espacios\n";
+                error += "Introduce los 16 d√≠gitos de la tarjeta de cr√©dito sin espacios\n";
             }
         	if (anyoTC.getText().trim().length() == 0) {
-                error += "Introduce el aÒo de caducidad de la tarjeta de crÈdito\n";
+                error += "Introduce el a√±o de caducidad de la tarjeta de cr√©dito\n";
             }
         	if (anyoTC.getText().trim().length()>0 && anyoTC.getText().trim().length() != 4) {
-                error += "Error en el formato del aÒo: AAAA\n";
+                error += "Error en el formato del a√±o: AAAA\n";
             }
         	if (mesTC.getText().trim().length() == 0) {
-                error += "Introduce el mes de caducidad de la tarjeta de crÈdito\n";
+                error += "Introduce el mes de caducidad de la tarjeta de cr√©dito\n";
             }
         	if (mesTC.getText().trim().length()>0 && mesTC.getText().trim().length() != 2) {
                 error += "Error en el formato del mes: MM\n";
             }
         	if (cvc.getText().trim().length() == 0) {
-                error += "Introduce el CVC de la tarjeta de crÈdito\n";
+                error += "Introduce el CVC de la tarjeta de cr√©dito\n";
             }
         	if (cvc.getText().trim().length()>0 && cvc.getText().trim().length() != 3) {
-                error += "Introduce los 3 dÌgitos del CVC de la tarjeta de crÈdito\n";
+                error += "Introduce los 3 d√≠gitos del CVC de la tarjeta de cr√©dito\n";
             }
         	if (tipoTarjeta.getText().trim().length() == 0) {
-                error += "Introduce el tipo de la tarjeta de crÈdito\n";
+                error += "Introduce el tipo de la tarjeta de cr√©dito\n";
             }
         	if (tipoTarjeta.getText().trim().length()>10) {
-                error += "La longitud m·xima para el tipo de tarjeta es de 10 car·cteres\n";
+                error += "La longitud m√°xima para el tipo de tarjeta es de 10 car√°cteres\n";
             }
         	
         	if(error.length()!=0){

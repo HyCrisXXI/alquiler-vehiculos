@@ -106,7 +106,7 @@ public class ControladorCrearReserva extends ControladorCasoDeUso{
             }
 
             if (fechaDevolucion.getValue() == null) {
-            	error += "Introduce la fecha de devolución\n";
+            	error += "Introduce la fecha de devoluciÃ³n\n";
             }
 
             if (dni.getText().trim().length() == 0) {
@@ -120,7 +120,7 @@ public class ControladorCrearReserva extends ControladorCasoDeUso{
             }
 
             if (categoriaAsoc.getSelectionModel().getSelectedItem()== null) {
-            	error += "Selecciona una categoría\n";
+            	error += "Selecciona una categorÃ­a\n";
             }
 
             if (lugarRec.getSelectionModel().getSelectedItem()== null) {
@@ -128,7 +128,7 @@ public class ControladorCrearReserva extends ControladorCasoDeUso{
             }
 
             if (lugarDev.getSelectionModel().getSelectedItem()== null) {
-            	error += "Selecciona una lugar de devolución\n";
+            	error += "Selecciona una lugar de devoluciÃ³n\n";
             }
 
         	
@@ -145,7 +145,7 @@ public class ControladorCrearReserva extends ControladorCasoDeUso{
         	
         	 Alert alerta = new Alert(AlertType.ERROR);
 				alerta.initStyle(StageStyle.UNIFIED);
-				alerta.setContentText("Este DNI no pertenece a ningún cliente en nuestra base de datos, a continuación se mostrará la ventana para crear un nuevo cliente");
+				alerta.setContentText("Este DNI no pertenece a ningÃºn cliente en nuestra base de datos, a continuaciÃ³n se mostrarÃ¡ la ventana para crear un nuevo cliente");
 				alerta.setHeaderText("Error DNI");
 				alerta.showAndWait();
 				
