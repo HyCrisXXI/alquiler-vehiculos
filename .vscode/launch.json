@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "java",
+      "name": "Run AlquilerVehiculosApp",
+      "request": "launch",
+      "mainClass": "presentacion.AlquilerVehiculosApp",
+      "vmArgs": "--module-path \"lib/javafx\" --add-modules javafx.controls,javafx.fxml -Djava.library.path=lib/javafx/bin -Dprism.order=d3d,sw"
+    }
+  ]
+}
